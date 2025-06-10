@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #28a745;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('https://source.unsplash.com/1600x900/?pet,veterinary') no-repeat center center/cover;
+    color:green;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background: #28a745;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1e7e34;
+    color: white;
+}
